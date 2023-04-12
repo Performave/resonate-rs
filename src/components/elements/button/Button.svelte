@@ -4,8 +4,8 @@
         ButtonColor,
         ButtonSize,
         ButtonVariant,
-    } from '@/lib/elements/button/Button'
-    import { base, sizes, variants } from '@/lib/elements/button/Button.classes'
+    } from '@/components/elements/button/Button'
+    import { base, sizes, variants } from '@/components/elements/button/Button.classes'
 
     interface $$Props extends HTMLButtonAttributes {
         variant?: ButtonVariant

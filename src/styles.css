@@ -29,6 +29,10 @@
   }
 }
 
+html, body, #app {
+  @apply h-full w-full relative
+}
+
 @font-face {
   font-family: 'Inter';
   font-style: normal;
