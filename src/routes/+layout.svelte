@@ -1,6 +1,7 @@
 <script lang="ts">
-    import '../styles.css'
+	import { SvelteUIProvider } from '@svelteuidev/core';
+	import '../styles.css';
+	import 'carbon-components-svelte/css/all.css';
 </script>
-
 
 <slot />

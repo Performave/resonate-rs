@@ -1,7 +1,7 @@
 <script lang="ts">
-    import type { SvelteHTMLElements } from 'svelte/elements'
+    import type { SvelteComponentTyped } from 'svelte'
 
-    type $$Props = SvelteHTMLElements['div']
+    type $$Props = SvelteComponentTyped['div']
 
     let _class = ''
     export { _class as class }

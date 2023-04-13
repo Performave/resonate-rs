@@ -31,6 +31,8 @@
 	"type": "module",
 	"dependencies": {
 		"@emotion/css": "^11.10.6",
+		"@rgossiaux/svelte-headlessui": "^1.0.2",
+		"@svelteuidev/core": "^0.11.1",
 		"carbon-components-svelte": "^0.73.5",
 		"carbon-icons-svelte": "^11.4.0"
 	}

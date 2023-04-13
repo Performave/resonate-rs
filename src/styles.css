@@ -30,7 +30,7 @@
 }
 
 html, body, #app {
-  @apply h-full w-full relative
+  @apply h-full w-full relative overflow-x-hidden
 }
 
 @font-face {
